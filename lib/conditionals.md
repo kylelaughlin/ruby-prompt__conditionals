@@ -16,4 +16,5 @@ being true. Conditionals in code would be represented by if-elsif-else statement
 A single = is used to set a value. If I were to write my_variable = 14 I would be saying set the value of the variable 
 my_variable to the integer 14. Double == is used when checking if two pieces of information are equal to each other. Using 
 the samve variable, if I wrote my_variable == 14 that would evaluate to the boolean value true. A single = assigns a value 
-while double == checks if two things are the same or equal.
+while double == checks if two things are the same or equal. On a side note if I had written my_variable == "14" it would 
+evaluate to false due to the variable being an integer and "14" being a string which are not considered the same or equal.
